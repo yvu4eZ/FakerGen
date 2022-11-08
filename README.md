@@ -7,6 +7,6 @@ pip install Faker
 ```
 
 ## Usage
-- Pass a locale IE ('en_CA')
-- Pass the number of records to genrate to the fake_date()
-- Execute the python script from the command line
+- Input a locale IE ('en_CA')
+- Input the number of records to genrate to the fake_date()
+- Execute the python script
