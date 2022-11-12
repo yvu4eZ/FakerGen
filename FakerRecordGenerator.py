@@ -25,4 +25,4 @@ def fake_data(x):
 
 FakerDf = fake_data(1000)
 
-FakerDf.to_csv(os.getcwd() + "/output_" + datetime.now().strftime("%Y-%m-%dT%H_%M_%S.%fZ") + '.csv')
+FakerDf.to_csv(os.getcwd() + "/output_" + datetime.now().strftime("%Y-%m-%dT%H_%M_%S.%fZ") + '.csv', header = False)
