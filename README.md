@@ -12,4 +12,8 @@ In order to use the script, you will need to:
 1. Input a locale IE ('en_CA')
 2. Input the number of records in fake_date()
 3. Execute the python script
+
 The fake data will then be generated onto a csv file in the local directory.
+
+## Ideas for next steps
+- Sepcifiy the locale, number of records and output file via command line
