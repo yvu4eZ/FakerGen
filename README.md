@@ -1,12 +1,15 @@
 # FakerRecordGenerator
-FakerRecordGenerator is a Python script I created that allows you to quickly and easily generate fake customer data to csvs. This has a few use cases, including stress testing, database seeding, data anonymizing, etc. 
+FakerRecordGenerator is a Python script that allows you to quickly and easily generate fake data to csvs. The data can be used for stress testing, database seeding, data anonymizing, etc. 
 
 ## Installation
+The Python script requires the Faker library installed.
 ```bash
 pip install Faker
 ```
 
 ## Usage
-- Input a locale IE ('en_CA')
-- Input the number of records to genrate to the fake_date()
-- Execute the python script
+In order to use the script, you will need to:
+1. Input a locale IE ('en_CA')
+2. Input the number of records in fake_date()
+3. Execute the python script
+The fake data will then be generated onto a csv file in the local directory.
