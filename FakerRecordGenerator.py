@@ -15,6 +15,7 @@ def fake_data(x):
         FakerDf.loc[_,'last_name']= Fake.last_name()
         FakerDf.loc[_,'email']= Fake.unique.ascii_company_email()
         FakerDf.loc[_,'phone']= Fake.unique.phone_number()
+        FakerDf.loc[_,'address']= Fake.address()
         FakerDf.loc[_,'job']= Fake.job()
         FakerDf.loc[_,'company']= Fake.unique.company()
         FakerDf.loc[_,'last_login_ip']= Fake.unique.ipv4()
@@ -25,4 +26,4 @@ def fake_data(x):
 
 FakerDf = fake_data(1000)
 
-FakerDf.to_csv(os.getcwd() + "/output_" + datetime.now().strftime("%Y-%m-%dT%H_%M_%S.%fZ") + '.csv', header = False)
+FakerDf.to_csv(os.getcwd() + "/output_" + datetime.now().strftime("%Y-%m-%dT%H_%M_%S.%fZ") + '.csv', index = False)
