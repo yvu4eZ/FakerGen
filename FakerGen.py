@@ -1,3 +1,4 @@
+#!//usr/local/bin/python3
 from faker import Faker
 import pandas as Panda
 import os
