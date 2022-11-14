@@ -1,5 +1,5 @@
 # FakerGen
-FakerGen is a Python script that allows you to quickly and easily generate fake data for stress testing, database seeding, data anonymizing, etc. 
+FakerGen is a Python script I wrote that allows you to quickly and easily generate fake data. I initialy created the script to anonymize data taken from a production service but the script also has other use cases like stress testing and database seeding. 
 
 ## Installation
 As a requirement, the Faker library needs to be installed.
@@ -16,4 +16,5 @@ To use the script, you will need to:
 The fake data will then be generated onto a csv file in the local directory.
 
 ## Ideas for next steps
-- Execute the script via command line with the locale, number of records and output file as argumetns
+- Execute the script via command line while passing the locale, number of records and output file as arguments
+- Ability to select what kind of fake data would be included in the export
